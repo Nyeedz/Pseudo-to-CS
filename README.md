@@ -1,6 +1,6 @@
 # Conversão de Pseudocódigo para C# feito em Java
 
-Usando análise [lexica](http://dinosaur.compilertools.net/) para verificar o código juntamente com [Expressçoes Regulares](https://pt.wikipedia.org/wiki/Express%C3%A3o_regular) e [Mono](http://www.mono-project.com/docs/about-mono/supported-platforms/linux/) para executar o exe 
+Usando análise [lexica](http://dinosaur.compilertools.net/) para verificar o código juntamente com [Expressões Regulares](https://pt.wikipedia.org/wiki/Express%C3%A3o_regular) e [Mono](http://www.mono-project.com/docs/about-mono/supported-platforms/linux/) para executar o exe 
 
 ## instalação
 
