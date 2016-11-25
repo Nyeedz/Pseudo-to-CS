@@ -5,6 +5,6 @@ Usando análise [lexica](http://dinosaur.compilertools.net/) para verificar o c�
 ##instalação
 
 ###instalação mono e lex
-´´´sh
+```sh
 sudo apt-get install mono-complete
 sudo apt-get install byacc flex
