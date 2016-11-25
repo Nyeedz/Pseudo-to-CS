@@ -1,0 +1,57 @@
+﻿Algoritmo "CONTA"
+
+var
+   controle : INTEIRO
+   fatorial : INTEIRO
+   contador : INTEIRO
+   valor1: INTEIRO
+   valor2: INTEIRO 
+   soma: INTEIRO
+ 
+ 
+(using){espaco}(System)\;	                                                                    {}
+(class){espaco}(Projeto)\{                                                                       {}
+(public){espaco}(static){espaco}(void){espaco}(Main)\(\)\{                              {}
+ 
+ fat: INTEIRO
+
+INÍCIO
+
+    contador:= 0
+    controle:= 2
+
+    ENQUANTO contador < 3 FAÇA
+
+        Leia controle
+
+        SE controle < 0 ENTÃO
+
+            Escreva ("Entre com o valor 1 : ")
+            Leia (valor1)
+            Escreva ("Entre com o valor 2 : ")
+            Leia (valor2)
+            soma=valor1+valor2
+            Escreva("O valor da soma é: ", soma)
+
+        SENÃO
+
+            Escreva ("Digite o número para calcular o fatorial: ")
+			Leia (numero)
+ 
+			fatorial:= 1
+			PARA fat DE 1 ATE numero FACA
+				fatorial := fatorial * fat
+			FIMPARA
+ 			Escreva ("O fatorial é: ", fatorial)
+ 
+		FIM SE
+
+        contador:= contador + 1
+        controle:= controle - 1
+    FIM ENQUANTO
+
+FIM. 
+
+
+
+
