@@ -1,0 +1,21 @@
+INICIO
+	var nota : INTEIRO
+	
+	nota <- 5	
+
+	SE nota >= 7 ENTAO
+		nota <- 10
+	FIM_SE
+	SENAO
+		nota <- 0
+	FIM_SENAO
+
+	ESCREVA "Projeto"
+
+	ENQUANTO nota <= 5 FACA
+		ESCREVA "nota"
+		nota <- nota + 1
+	FIM_ENQUANTO
+
+		
+FIM
