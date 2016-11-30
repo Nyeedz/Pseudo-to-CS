@@ -1,23 +1,21 @@
 INICIO
-	var nome : INTEIRO
-	LEIA nome
-	nome <- 10 + 10	
+	var nota : INTEIRO
+	
+	nota <- 5	
 
 	SE nota >= 7 ENTAO
-		nome <- 10
+		nota <- 10
 	FIM_SE
 	SENAO
-		nome <- 10 + 10
+		nota <- 0
 	FIM_SENAO
 
-	ESCREVA "RUAN"
+	ESCREVA "Projeto"
 
-	ENQUANTO nota <= 1 FACA
-		ESCREVA "SOUZA"
-	FIM_ENQUANTO	
-	
-	PARA i = 0 ATE potencia FACA
-		ESCREVA "CAETANO"
-	FIM_PARA	
+	ENQUANTO nota <= 5 FACA
+		ESCREVA "nota"
+		nota <- nota + 1
+	FIM_ENQUANTO
 
+		
 FIM
